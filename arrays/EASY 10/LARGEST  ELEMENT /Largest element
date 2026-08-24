@@ -1,1 +1,21 @@
-.
+gfg link : https://www.geeksforgeeks.org/dsa/program-to-find-largest-element-in-an-array/
+
+my solution: 
+in photo
+
+
+
+
+
+
+
+
+
+
+
+follwup if asked : what if 2 or n  similar maximum elements  - return that much index 
+1) SORT ( OLOGN ) 
+2) LOOP FROM BACK STORE LAST ELEMENT 
+3) FOR (J = n , j<1 ; j-- ) 
+if array [j] != arr [n/last ] break 
+return (j- n ) +1 
